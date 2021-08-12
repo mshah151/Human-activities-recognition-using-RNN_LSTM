@@ -6,7 +6,7 @@
 1. [Documentation](#documentation)
 2. [Introduction](#Introduction)
 3. [Prerequisites](#Prerequisites)
-4. [Installation procedure](#Installation-procedure)
+4. [Aim](#Aim)
 5. [Dataset](#Dataset)
 6. [Model Information](#Model-Information)
 7. [Implementation of code](#Implementation-of-code)
@@ -26,77 +26,61 @@
 
 
 ## Introduction
-This project uses a 2D posture time series dataset and an LSTM RNN to classify human activities. The goal is to demonstrate that a sequence of 2D postures, rather than 3D poses or raw 2D pictures, can be used to accurately estimate a person's or animal's behavior. This is a step toward developing a system for categorising and forecasting an animal's present behavior state.
+This project uses a 2D posture time series dataset and an LSTM RNN to classify human activities. The goal is to demonstrate that a sequence of 2D postures, rather than 3 dimension image or raw 2D pictures, can be used to accurately estimate a person's or animal's behavior. This is a step toward developing a system for categorising and forecasting an animal's present behavior state.
 ## Prerequisites
+- Google colab 
+- Dataset
+- Tensorflow version #if not working use 1.14 version of tensforflow for palceholder
+- Numpy
+- Sklearn
 
 
-## Installation Procedure
-
-You can host websites at [Github Pages](https://pages.github.com/)!
-
-You can also do relative links [newfile.txt](newfile.txt)
+## Aim
+To see if a 2-dimensional stance can be used in activity detection with the same accuracy as a three dimensional shape. That rather than RGBD or a massive virtual reality collection, this would permit for the use of RGB only cameras for human and animal position estimate.
+Adapting for usage with a big dataset organised by class and mini-batch using random sampling without replacement. When utilising a dataset sorted by class, this allows for reduced batch sizes. "It has been seen in practise that when employing a bigger batch, the model's quality, as evaluated by its capacity to generalise. 
 
 ## Dataset
+
+The dataset contains pose estimations performed on a portion of the Berkeley Multimodal Human Action Database (MHAD) dataset http://tele-immersion.citris-uc.org/berkeley MHAD using the programme.
+
+
+This dataset is comprised of 12 subjects doing the following 6 actions for 5 repetitions, filmed from 4 angles, repeated 5 times each.
+- Jumping,
+- Jumping_Jacks,
+- Boxing,
+- Waving_2hands,
+- Clapping_hands.
+- Waving_1hand,
+
+In total, there are 1438 videos made up of 211200 individual frames.
+
+## Model Information
+- LSTM: An LSTM model's primary function is played by a memory cell known as a 'cell state', which retains its state throughout time. The horizontal line that goes through the top of the figure below represents the cell state. It may be compared to a conveyor belt on which data just flows. LSTMs are built to solve these issues. Long short-term memory (LSTM) is one of Deep Learning's more difficult domains. Getting your mind around LSTM is a difficult process. It is concerned with algorithms that attempt to replicate the human brain's operation in order to find the underlying correlations in sequential data. The 2-dimensional location of 18 joints throughout a timeseries of frames numbered n steps is sent into the LSTM, along with a class label for the frame series.
+
+## Implementation of code
+
+<h3>Importing libraries</h3>
+
+<h3>Setting parameter</h3>
+
+<h3>preparing dataset</h3>
+
+<h3>Function implementation</h3>
+
+<h3>Train Network</h3>
+
+## Result
+
+- This is a brief, but accurate description telling potential users exactly what your project is about. This is akin to an "abstract" in academic works. 
 
 ![confusionmatrix](images/confusionmat.PNG)
 
 ![graph](images/graph.PNG)
 
 
-
-## Model Information
-
-Here's a list of cool pokemon:
-
-- Mew
-- Mewtwo
-- Celebi
-- Arceus
-- Porygon
-- Mimikyu
-
-Here's a list of my favorite pens:
-
-1. Lamy 200
-2. Herbin
-3. Pilot
-
-Here's a nested list!
-
-1. This is a number
-   1. This is a sub-number
-   2. This is another sub-number
-2. This is a number
-   - This is a subpoint
-   - This is another sub-point
-     1. This is a sub-sub number
-
-## Implementation of code
-
-Depending on exactly what sort of project you are doing, there are a number of things that you may or may not want to include in a readme. There is really no *one true way* to do it. Readme's are a kind of artform.
-
-_However_ there are a few things that you should consider including:
-
-1. Name of your project.
-2. Description of your project.
-3. Badges.
-4. Graphics / Visuals
-5. Install Instructions
-6. Usage (how does one use the program once it is installed.)
-7. Support / Contact Details.
-8. Road-map (future ideas)
-9. How to contribute
-10. Authors / Acknowledgements (give credit where credit is due!)
-11. License
-12. Project Status
-
 ## Future Scope
 
 - This should be, simply, the name of your project.. maybe with some kind of a version Number
-
-## Result
-
-- This is a brief, but accurate description telling potential users exactly what your project is about. This is akin to an "abstract" in academic works. 
 
 
 
