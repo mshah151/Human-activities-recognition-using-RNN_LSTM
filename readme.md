@@ -59,15 +59,15 @@ In total, there are 1438 videos made up of 211200 individual frames.
 
 ## Implementation of code
 
-<h3>Importing libraries</h3>
+- <h3>Importing libraries</h3>
 
-<h3>Setting parameter</h3>
+- <h3>Setting parameter</h3>
 
-<h3>preparing dataset</h3>
+- <h3>preparing dataset</h3>
 
-<h3>Function implementation</h3>
+- <h3>Function implementation</h3>
 
-<h3>Train Network</h3>
+- <h3>Train Network</h3>
 
 ## Result
 
