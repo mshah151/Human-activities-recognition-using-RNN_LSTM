@@ -1,5 +1,6 @@
 # Resarch project- Lakehead University
 <h1>Deriving human activities recognition using RNN_LSTM</h1>
+
 ## Table of Contents
 
 1. [Documentation](#documentation)
@@ -16,35 +17,17 @@
 
 - Documents that are containing in this repository are being played below:
 
-- Rnn_lstm.ipynb --> this file contain the python code for the project
-- README.md ----> This markdown file you are reading.
 - Dataset ----------> dataset for the execution of the project
 - Images --------> Contains the iamges for the readme file
+- Rnn_lstm.ipynb --> this file contain the python code for the project
+- README.md ----> This markdown file you are reading.
+
+
 
 
 ## Introduction
-
-Italics!
-
-*Bold!*
-
-*Bold-Italics!*
-
-~strikethru~
-
-:coffee::cat::happy:
-
-In the words of Abraham Lincoln:
-
-> "Pardon my French!"
-
+This project uses a 2D posture time series dataset and an LSTM RNN to classify human activities. The goal is to demonstrate that a sequence of 2D postures, rather than 3D poses or raw 2D pictures, can be used to accurately estimate a person's or animal's behavior. This is a step toward developing a system for categorising and forecasting an animal's present behavior state.
 ## Prerequisites
-
-cpp
-int myFunc(int a int b){
-    int c = a+b;
-    return c;
-}
 
 
 ## Installation Procedure
