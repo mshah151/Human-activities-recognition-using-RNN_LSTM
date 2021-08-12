@@ -60,15 +60,15 @@ In total, there are 1438 videos made up of 211200 individual frames.
 ## Implementation of code
 
 - <h3>Importing libraries</h3>
-
+    ![confusionmatrix](images/confusionmat.PNG)
 - <h3>Setting parameter</h3>
-
+    ![confusionmatrix](images/confusionmat.PNG)
 - <h3>preparing dataset</h3>
-
+    ![confusionmatrix](images/confusionmat.PNG)
 - <h3>Function implementation</h3>
-
+    ![confusionmatrix](images/confusionmat.PNG)
 - <h3>Train Network</h3>
-
+    ![confusionmatrix](images/confusionmat.PNG)
 ## Result
 
 - This is a brief, but accurate description telling potential users exactly what your project is about. This is akin to an "abstract" in academic works. 
