@@ -60,18 +60,18 @@ In total, there are 1438 videos made up of 211200 individual frames.
 ## Implementation of code
 
 - <h3>Importing libraries</h3>
-    ![confusionmatrix](images/confusionmat.PNG)
+    ![libraries](images/libraries.PNG)
 - <h3>Setting parameter</h3>
-    ![confusionmatrix](images/confusionmat.PNG)
+    ![setting parameters](images/setting parameters.PNG)
 - <h3>preparing dataset</h3>
-    ![confusionmatrix](images/confusionmat.PNG)
+    ![datasetimport](images/datasetimport.PNG)
 - <h3>Function implementation</h3>
-    ![confusionmatrix](images/confusionmat.PNG)
+    ![modelpreparing](images/modelpreparing.PNG)
 - <h3>Train Network</h3>
-    ![confusionmatrix](images/confusionmat.PNG)
+    ![trainandtest](images/trainandtest.PNG)
 ## Result
 
-- This is a brief, but accurate description telling potential users exactly what your project is about. This is akin to an "abstract" in academic works. 
+- This project is done very accurate with the satisfied accuracy obtained after the testing result that is about 96,77\% of testing accuracy and 97.5\% of training accuracy for the precision of the analysis for the six different position for 2D stance detection of human activities.
 
 ![confusionmatrix](images/confusionmat.PNG)
 
