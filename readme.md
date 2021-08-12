@@ -55,9 +55,9 @@ You can also do relative links [newfile.txt](newfile.txt)
 
 ## Dataset
 
-![python](Saved Pictures/confusionmat.PNG)
+![confusionmatrix](images/confusionmat.png)
 
-![woah](img/woah.gif)
+![](images/graph,png)
 
 
 
