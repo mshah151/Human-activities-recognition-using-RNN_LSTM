@@ -62,7 +62,7 @@ In total, there are 1438 videos made up of 211200 individual frames.
 - <h3>Importing libraries</h3>
     ![libraries](images/libraries.PNG)
 - <h3>Setting parameter</h3>
-    ![setting parameters](images/setting parameters.PNG)
+    ![setting-parameters](images/settingparameters.PNG)
 - <h3>preparing dataset</h3>
     ![datasetimport](images/datasetimport.PNG)
 - <h3>Function implementation</h3>
