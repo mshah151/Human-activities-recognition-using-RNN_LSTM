@@ -90,7 +90,11 @@ In total, there are 1438 videos made up of 211200 individual frames.
 
 ## Future Scope
 
-- This should be, simply, the name of your project.. maybe with some kind of a version Number
+- Based on a baseline of normal motion, additional study will be done into the usage of more nuanced activity classes, such as walking versus running, agitated movement against calm movement, and perhaps normal versus aberrant behaviour. 
+-  A validation of dataset and will try new dataset in this model
+- A pipeline for qualitative results 
+- Adding Dropout
+- Comparison of effect of changing batch size
 
 
 
