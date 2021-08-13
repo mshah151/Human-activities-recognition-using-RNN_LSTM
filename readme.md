@@ -60,15 +60,25 @@ In total, there are 1438 videos made up of 211200 individual frames.
 ## Implementation of code
 
 - <h3>Importing libraries</h3>
+    
     ![libraries](images/libraries.PNG)
+
 - <h3>Setting parameter</h3>
-    ![setting-parameters](images/settingparameters.PNG)
+
+    ![settingparameters](images/settingparameters.PNG)
+
 - <h3>preparing dataset</h3>
+
     ![datasetimport](images/datasetimport.PNG)
+
 - <h3>Function implementation</h3>
+
     ![modelpreparing](images/modelpreparing.PNG)
+
 - <h3>Train Network</h3>
+
     ![trainandtest](images/trainandtest.PNG)
+
 ## Result
 
 - This project is done very accurate with the satisfied accuracy obtained after the testing result that is about 96,77\% of testing accuracy and 97.5\% of training accuracy for the precision of the analysis for the six different position for 2D stance detection of human activities.
