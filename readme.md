@@ -1,4 +1,4 @@
-# Resarch project- Lakehead University
+# Research project- Lakehead University
 <h1>Deriving human activities recognition using RNN_LSTM</h1>
 
 ## Table of Contents
