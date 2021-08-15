@@ -1,4 +1,5 @@
 # Research project- Lakehead University
+## Research Methodology (5112-GDF) 
 <h1>Deriving human activities recognition using RNN_LSTM</h1>
 
 ## Table of Contents
